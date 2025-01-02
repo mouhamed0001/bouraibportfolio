@@ -1,9 +1,8 @@
 #whoami{
-    max-width: 1300px;
-    min-width: 80%;
+    width: min(80vw, 1300px);
     height: 530px;
     position: absolute;
-    top: 50%;
+    top: max(50%, 1200px);
     right: 50%;
     transform: translate(50%, -50%);
     display: flex;
