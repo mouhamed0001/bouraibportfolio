@@ -13,7 +13,7 @@
     height: 370px;
 }
 .card{
-    width: 420px;
+    width: 90%;
     display: flex;
     height: 180px;
     padding: 0 10px;
@@ -82,7 +82,7 @@ i{
     #card4 { grid-area: 2 / 2 / 3 / 3; }
     #card5 { grid-area: 3 / 1 / 4 / 2; }
 }
-@media (max-width: 930px){
+@media (max-width: 450px){
     .container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -90,7 +90,8 @@ i{
         grid-column-gap: 10px;
         grid-row-gap: 10px;
         height: 540px;
-        width: 400px;
+        width: 90%;
+        margin: auto;
     }
     .card{
         width: 100%;
