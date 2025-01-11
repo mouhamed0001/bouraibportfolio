@@ -72,6 +72,7 @@ i{
         grid-row-gap: 10px;
         height: 540px;
         width: 80%;
+        top: 55%;
     }
     .card{
         width: 100%;
@@ -82,7 +83,7 @@ i{
     #card4 { grid-area: 2 / 2 / 3 / 3; }
     #card5 { grid-area: 3 / 1 / 4 / 2; }
 }
-@media (max-width: 450px){
+@media (max-width: 980px){
     .container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -90,7 +91,7 @@ i{
         grid-column-gap: 10px;
         grid-row-gap: 10px;
         height: 540px;
-        width: 90%;
+        width: 80%;
         margin: auto;
     }
     .card{
