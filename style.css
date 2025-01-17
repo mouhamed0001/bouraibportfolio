@@ -24,9 +24,10 @@
 }
 @media screen and (max-width: 500px) {
     #whoami{
-        top: 210px;
+        top: 250px;
         right: 0;
         width: calc(100% - 10px);
+        margin: 0 5px;
     }
     #whoami p{
         font-size: 16px;
@@ -34,5 +35,8 @@
     }
     #whoami img{
         height: auto;
+    }
+    #whoami h1{
+        font-size: 20px;
     }
 }
