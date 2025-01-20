@@ -4,6 +4,7 @@
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+    justify-items: center;
     
     width: 1280px;
     position: absolute;
