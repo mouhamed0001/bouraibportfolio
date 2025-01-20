@@ -22,7 +22,7 @@
     margin-top: 10px;
     width: 50%;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1400px) {
     #whoami{
         top: 250px;
         right: 0;

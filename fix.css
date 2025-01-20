@@ -63,7 +63,7 @@ header h1{
 
     backdrop-filter: blur(10px);
 
-    outline: 1px solid;
+    /* outline: 1px solid; */
 }
 .rightbar a, .rightbar div{
     width: 80px;
@@ -130,8 +130,11 @@ header h1{
         right: 50%;
         transform: translate(50%, 0);
 
-        justify-content: center;
+        justify-content: space-evenly;
         gap: 50px;
+    }
+    .rightbar div:hover span#tooltip{
+        display: none;
     }
 }
 
@@ -151,6 +154,8 @@ header h1{
         flex-direction: row;
         top: 120px;
         right: 40px;
+        transform: translate(0,0);
+        justify-content: space-evenly;
     }
     .rightbar div span#tooltip{
         right: -70px;
@@ -167,7 +172,11 @@ header h1{
 }
 @media screen and (max-width: 400px) {
     .rightbar{
-        justify-content: space-evenly;
+        justify-content: space-between;
+        gap: 10px;
+        height: 60px;
+        width: 60%;
+        margin: auto;
     }
     .rightbar a, .rightbar div{
         width: var(--s);
